@@ -1,0 +1,26 @@
+{
+    "name": "hydroponics",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jenkynolasco11/hydroponics.git"
+    },
+    "author": "JJA",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jenkynolasco11/hydroponics/issues"
+    },
+    "homepage": "https://github.com/jenkynolasco11/hydroponics#readme",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "express": "^4.15.4",
+        "mongoose": "^4.11.10",
+        "nodemailer": "^4.1.0"
+    }
+}
