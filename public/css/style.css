@@ -3,7 +3,8 @@
 body {
     padding: 0;
     margin: 0;
-    background: #c3a67b;
+    background-image: url("../images/bg_wood.jpg");
+    background-repeat: repeat;
     position: relative;
     font-family: 'Monda', sans-serif;
 }
@@ -156,7 +157,7 @@ label {
     position:absolute;
     /* background-image: url('../images/mw_background.jpg');
      */
-    background-image: url('../moreImages/mw7.jpg');
+    background-image: url('../moreImages/mw8.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
