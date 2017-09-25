@@ -1952,6 +1952,8 @@ footer {
 }
 
 @media(max-width: 991px) {
+    .mwlogo{
+        width: 55%;}
     .nav>li>a {
         padding: 14px 15px;
     }
