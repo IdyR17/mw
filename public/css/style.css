@@ -92,7 +92,8 @@ label {
 }
 
 .logo-agileinfo span {
-    text-shadow: 2px 2px 2px #604231;
+    text-shadow: 2px 2px 4px #000;
+    /* #604231; */
 }
 
 .logo-agileinfo h1 {
