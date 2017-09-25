@@ -43,7 +43,7 @@ h6 {
 
 h2.sub-title {
     text-transform: capitalize;
-    color: #c3a67b;
+    color:#000;
 }
 
 p.banner-text-detail {
@@ -745,7 +745,7 @@ a.hvr-shutter-in-horizontal {
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
-    background: #4baf4f;
+    background: #604231;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -854,7 +854,7 @@ a.hvr-shutter-in-horizontal:active:before {
 
 span.like {
     font-size: 0.9em;
-    color: #4baf4f;
+    color: #604231;
     text-transform: uppercase;
     margin: 18px 0 0px;
     letter-spacing: 3px;
@@ -1017,7 +1017,7 @@ a.frist {
 }
 .jr_agile_testimonials_grid_right h5{
 	font-size:14px;
-	color:#87b200;
+	color:#604231;
 }
 /*--flexisel--*/
 .flex-slider{	
@@ -1104,7 +1104,7 @@ a.frist {
 
 .jurir-team-grid h4 {
     font-size: 1.5em;
-    color: #4baf4f;
+    color: #604231;
     margin: 1.5em 0 0;
     font-weight: 600;
     letter-spacing: 1px;
@@ -1177,56 +1177,102 @@ a.frist {
 /*-- //team --*/
 
 
+
 /*-- contact --*/
-
-.contact-us1-bottom form {
-    /* float: left; */
-    display: block;
+.contact{
+    background: #4d4d4d;
 }
-
-.contact-us1-bottom input[type="text"],
-.contact-us1-bottom input[type="email"],
-.contact-us1-bottom textarea {
+.contact-us1-bottom form{
+	float:left;
+	width:50%;
+}
+.contact-us1-bottom input[type="text"], .contact-us1-bottom input[type="email"], .contact-us1-bottom textarea {
     outline: none;
     padding: 10px 10px;
-    background: #fff;
-    color: #777;
+    background: white;
+    color: #000;
     font-size: 1em;
     border: 1px solid #000;
     width: 48.3%;
 }
-
-.contact-us1-bottom input[type="email"] {
-    margin: 0 0 0 1em;
+.contact-us1-bottom input[type="email"]{
+	margin:0 0 0 1em;
 }
-
 .contact-us1-bottom textarea {
-    min-height: 150px;
-    resize: none;
-    width: 100%;
-    margin: 1em 0;
+	min-height:150px;
+	resize:none;
+	width:100%;
+	margin:1em 0;
 }
-
 .contact-us1-bottom input[type="submit"] {
-    background: #f44236;
+	background: #f44236;
     color: #fff;
     outline: none;
     padding: 10px 0px;
     width: 30%;
-    font-size: 16px;
-    border: none;
-    transition: .5s all;
-    -webkit-transition: .5s all;
-    -moz-transition: .5s all;
-    -o-transition: .5s all;
-    -ms-transition: .5s all;
+	font-size: 16px;
+	border:none;
+	transition:.5s all;
+	-webkit-transition:.5s all;
+	-moz-transition:.5s all;
+	-o-transition:.5s all;
+	-ms-transition:.5s all;
 }
-
 .contact-us1-bottom input[type="submit"]:hover {
-    background: #4baf4f;
+	background:#604231;
 }
-
-
+.home-radio-clock{
+	float:left;
+	width:20%;
+	margin-left: 5em;
+}
+.home-radio-clock-right{
+	float:left;
+	width:20%;
+}
+.home-radio-clock ul{
+	padding:0;
+	margin:0;
+}
+.home-radio-clock ul li {
+    padding-left: 4em;
+    color: #fff;
+    font-size: 1em;
+    list-style-type: none;
+    margin: 0 0 1.5em;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.home-radio-clock-right ul{
+	padding:0;
+	margin:0;
+}
+.home-radio-clock-right ul li {
+    color: #fff;
+    font-size: 1em;
+    list-style-type: none;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.home-radio-clock ul li i {
+    font-size: 1.5em;
+    left: -15px;
+    color: #604231;
+    top: 6px;
+}
+.home-radio-clock-right ul li span{
+	display:block;
+}
+.home-radio-clock-right ul li.lst{
+	margin:1em 0 2em;
+}
+.map{
+	margin:3em 0 0;
+}
+.map iframe{
+	width:90%;
+	min-height:400px;
+}
 /*-- //contact --*/
 
 
@@ -1625,122 +1671,6 @@ footer {
     color : #f44236 !important;
 }
 
-/**********************************
-SHOP SECTION
-**********************************/
-.align-middle {
-    margin-top : 15%;
-}
-
-#shop {
-    padding : 3.9em 0;
-    background : #eee;
-}
-
-#shop .tittle {
-    margin-bottom : 25px;
-    text-align : center;
-}
-.buy-section, .diy-section {
-    text-align : center;
-    height : 400px;
-}
-
-#shop h4 {
-    /* font-size : 1em; */
-    margin-bottom : 50px;
-}
-
-#shop .shop-modal {
-    height : 200px;
-    width : 200px;
-    margin : 0 auto;
-    background : #f44236;
-    border-radius : 50%;
-    color : white;
-    font-size : 4em;
-    transition : box-shadow 0.2s linear;
-    cursor : pointer;
-    position: relative;
-}
-
-#shop .shop-modal .vertical-align {
-    position : absolute;
-    width : 100%;
-    margin-top : 1em;
-}
-
-/* #shop .shop-modal::after { */
-#shop .shop-modal:hover {
-    box-shadow : 0 0 15px #f44236;
-}
-
-
-#shop-modal {
-    top : 0;
-    position : fixed;
-    height : 100vh;
-    width : 100vw;
-    background : rgba(0,0,0,0.4);
-}
-
-.hidden {
-    /* display : none; */
-}
-
-.flex-me.diy {
-    height : 35vh
-}
-
-.flex-me {
-    height : 60vh;
-    display : flex;
-    flex-direction : column;
-    justify-content : space-around;
-    align-items : center;
-}
-
-.flex-me form {
-    width : 80%;
-}
-
-.flex-me h2 {
-    text-align : center;
-}
-
-.flex-me p {
-    padding : 15px;
-    text-align : justify;
-}
-
-.modal-header.no-border {
-    border : none;
-}
-
-.modal-header input {
-    height : 35px;
-    display : inline-block;
-    box-sizing: border-box;
-}
-
-.modal-header input[type='email']{
-    border : 1px solid #cecece;
-    width : 80%;
-}
-
-.modal-header input[type='submit'] {
-    background : #f44236;
-    border : none;
-    color : white;
-    width : 20%;
-
-    /* margin-left : 2.5%; */
-}
-
-.modal-header input[type='submit']:hover {
-    background : #080808;
-    color : #f44236;
-}
 /* #shop .shop-modal[data-val='diy']:hover::after {
     color : white;
     content : 'DIY';
@@ -1824,6 +1754,7 @@ SHOP SECTION
     .about.juri-agileinfo,
     .services,
     .news-section,
+    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -1842,6 +1773,7 @@ SHOP SECTION
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
+    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 3.5em;
@@ -1936,6 +1868,9 @@ SHOP SECTION
         width: 37px;
         font-size: 0.95em;
     }
+	.jr_agile_testimonials_grid {
+		padding: 2.5em;
+	}    
     .nbs-flexisel-nav-left,
     .nbs-flexisel-nav-right {
         width: 42px;
@@ -1948,6 +1883,17 @@ SHOP SECTION
     .contact-us1-bottom input[type="email"] {
         margin: 0 0 0 0.8em;
     }
+    .home-radio-clock {
+		width: 25%;
+		margin-left: 3em;
+	}
+	.jr_agile_testimonials_grid_right {
+		padding: 3.5em 4em;
+	}
+	.jr_agile_testimonials_grid_right h4 {
+		font-size: 1.35em;
+		letter-spacing: 1px;
+	}
 }
 
 @media(max-width: 1050px) {
@@ -1968,6 +1914,7 @@ SHOP SECTION
     .about.juri-agileinfo,
     .services,
     .news-section,
+    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -1978,6 +1925,7 @@ SHOP SECTION
     .news-left,
     section .da-thumbs,
     .agileinfo-team-grids,
+    .agile_testimonials_grids,
     .contact-us1-bottom {
         margin-top: 3em;
     }
@@ -2111,6 +2059,18 @@ SHOP SECTION
         font-size: 1.4em;
         letter-spacing: 0px;
     }
+    .jr_agile_testimonials_grid {
+		padding: 2em 1.5em;
+	}
+	.agile_testimonials_grid p {
+		font-size: 0.95em;
+	}
+	.jr_agile_testimonials_grid_right {
+		padding: 2.5em 3em;
+	}
+	.jr_agile_testimonials_grid_right h4 {
+		font-size: 1.3em;
+	}
     .nbs-flexisel-nav-left {
         left: 68%;
     }
@@ -2120,6 +2080,21 @@ SHOP SECTION
     .contact-us1-bottom textarea {
         min-height: 140px;
     }
+    .home-radio-clock {
+		width: 25%;
+		margin-left: 0em;
+	}
+	.home-radio-clock-right {
+		float: left;
+		width: 25%;
+	}
+	.home-radio-clock ul li {
+		padding-left: 3.5em;
+		letter-spacing: 0px;
+	}
+	.home-radio-clock-right ul li {
+		letter-spacing: 0px;
+	}
     .contact-us1-bottom input[type="submit"] {
         padding: 9px 0px;
         font-size: 15px;
@@ -2240,6 +2215,7 @@ SHOP SECTION
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
+    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 2.5em;
@@ -2326,6 +2302,7 @@ SHOP SECTION
     .about.juri-agileinfo,
     .services,
     .news-section,
+    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -2340,6 +2317,12 @@ SHOP SECTION
     .team-social-grids ul li {
         margin: 0 .1em 0 0;
     }
+    .jr_agile_testimonials_grid {
+		padding: 1.5em 1em;
+	}
+	.jr_agile_testimonials_grid_right {
+		padding: 2em 2.5em;
+	}
     .home-radio-clock-right ul li {
         font-size: 0.95em;
     }
@@ -2462,15 +2445,42 @@ SHOP SECTION
         width: 40px;
         font-size: 1em;
     }
+    .jr_agile_testimonials_grid {
+		padding: 1.5em 0.5em;
+	}
+	.agile_testimonials_grid p {
+		font-size: 0.9em;
+	}
+	.jr_agile_testimonials_grid_right h4 {
+		font-size: 1.2em;
+	}
     .nbs-flexisel-nav-left {
         left: 66.5%;
     }
+    .map iframe {
+		min-height: 250px;
+	}
     .contact-us1-bottom form {
         width: 100%;
     }
     .contact-us1-bottom input[type="email"] {
-        /* margin: 0 0 0 1em; */
+        margin: 0 0 0 1em;
     }
+    .home-radio-clock {
+		width: 31%;
+	}
+	.home-radio-clock-right {
+		width: 50%;
+	}
+	.home-radio-clock , .home-radio-clock-right {
+		margin-top: 2em;
+	}
+	.home-radio-clock ul li {
+		font-size: 1em;
+	}
+	.home-radio-clock-right ul li {
+		font-size: 1em;
+	}
     .agile_count_grid_right {
         margin: 0em 8.7em 2em 6.5em;
     }
@@ -2504,6 +2514,9 @@ SHOP SECTION
     .modal-header h4 {
         font-size: 1.8em;
     }
+    .jr_agile_testimonials_grid {
+		padding: 1.5em 0.4em;
+	}
     .nbs-flexisel-nav-left {
         left: 66%;
     }
@@ -2598,9 +2611,16 @@ SHOP SECTION
     .da-thumbs li a div span {
         font-size: 0.73em;
     }
-    .nbs-flexisel-nav-left {
-        left: 65%;
-    }
+	.jr_agile_testimonials_grid_right {
+		padding: 1.5em 2em;
+		margin: 0em 0.5em 0 0;
+	}
+	.nbs-flexisel-nav-left {
+		left: 65%;
+	}
+	.jr_agile_testimonials_grid {
+		padding: 1.5em 0.3em;
+	}
     .footer-grids p {
         color: #999;
         font-size: 13px;
@@ -2674,9 +2694,28 @@ SHOP SECTION
         font-size: 0.85em;
         margin: 8px 20px 0px 20px;
     }
-    .nbs-flexisel-nav-left {
-        left: 64%;
-    }
+    .jr_agile_testimonials_grid {
+		padding: 1.5em 0.2em;
+	}
+	.jr_agile_testimonials_grid_right {
+		padding: 1.5em 2em;
+		margin: 0em 0em 0 0;
+	}
+	.agile_testimonials_grid p {
+		font-size: 0.85em;
+	}
+    .jr_agile_testimonials_grid_right h4 {
+		font-size: 1.15em;
+	}
+	.nbs-flexisel-nav-left {
+		left: 64%;
+	}
+	.map iframe {
+		min-height: 235px;
+	}
+	.home-radio-clock {
+		width: 36%;
+	}
     .footer-grids p {
         letter-spacing: 0px;
     }
@@ -2764,6 +2803,7 @@ SHOP SECTION
     .about.juri-agileinfo,
     .services,
     .news-section,
+    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -2782,6 +2822,7 @@ SHOP SECTION
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
+    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 1.5em;
@@ -2871,17 +2912,36 @@ SHOP SECTION
     .jurir-team-grid h4 {
         font-size: 1.35em;
     }
-    .nbs-flexisel-nav-left {
-        left: 61%;
-    }
-    .contact-us1-bottom input[type="email"] {
-        /* margin: 0 0 0 0.8em; */
-    }
-    .contact-us1-bottom input[type="submit"] {
-        padding: 8px 0px;
-        font-size: 14px;
-        width: 27%;
-    }
+	.jr_agile_testimonials_grid {
+		padding: 3em 1.5em;
+		width: 30%;
+	}
+	.agile_testimonials_grid p {
+		font-size: 0.8em;
+	}
+	.jr_agile_testimonials_grid_right h4 {
+		font-size: 1em;
+	}
+	.nbs-flexisel-nav-left {
+		left: 61%;
+	}
+	.contact-us1-bottom input[type="email"] {
+		margin: 0 0 0 0.8em;
+	}
+	.contact-us1-bottom input[type="submit"] {
+		padding: 8px 0px;
+		font-size: 14px;
+		width: 27%;
+	}
+	.home-radio-clock ul li {
+		font-size: 0.95em;
+	}
+	.home-radio-clock-right ul li {
+		font-size: 0.95em;
+	}
+	.home-radio-clock {
+		width: 40%;
+	}
     .footer-grids.jrl-agileits {
         width: 100%;
     }
@@ -2981,6 +3041,7 @@ SHOP SECTION
     .about.juri-agileinfo,
     .services,
     .news-section,
+    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -3009,13 +3070,24 @@ SHOP SECTION
         font-size: 1.2em;
         margin: 1.2em 0 0;
     }
-    .nbs-flexisel-nav-left {
-        left: 56%;
-    }
-    .nbs-flexisel-nav-left,
-    .nbs-flexisel-nav-right {
-        top: 97% !important;
-    }
+    .jr_agile_testimonials_grid {
+		padding: 4em 1em;
+	}
+	.jr_agile_testimonials_grid_right {
+		padding: 1em 1.2em;
+	}
+	.nbs-flexisel-nav-left {
+		left: 56%;
+	}
+	.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+		top: 97% !important;
+	}
+	.map {
+		margin: 2em 0 0;
+	}
+	.map iframe {
+		min-height: 210px;
+	}
     .contact-us1-bottom input[type="text"],
     .contact-us1-bottom input[type="email"],
     .contact-us1-bottom textarea {
@@ -3242,6 +3314,7 @@ SHOP SECTION
     .about.juri-agileinfo,
     .services,
     .news-section,
+    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -3260,6 +3333,7 @@ SHOP SECTION
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
+    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 1em;
@@ -3330,6 +3404,12 @@ SHOP SECTION
     .nbs-flexisel-nav-left {
         left: 48%;
     }
+    .map {
+		margin: 1.5em 0 0;
+	}
+	.map iframe {
+		min-height: 170px;
+	}
     .contact-us1-bottom input[type="text"],
     .contact-us1-bottom input[type="email"],
     .contact-us1-bottom textarea {
