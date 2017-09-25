@@ -2257,7 +2257,9 @@ footer {
     .callbacks_nav {
         margin-top : 12%;
     } */
-
+    .mwlogo{
+        width: 60%;
+    }
     .navbar-collapse {
         background : rgba(0,0,0,0.7);
         position: absolute;
