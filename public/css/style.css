@@ -988,6 +988,99 @@ a.frist {
 
 /*--//gallery--*/
 
+/*-- testimonials --*/
+.agile_testimonials_grid p {
+    color: #777;
+    line-height: 2em;
+    margin-bottom: 1em;
+    text-align: left;
+    font-size: 1em;
+}
+.jr_agile_testimonials_grid_right {
+    margin: 0em 1.5em 0 0;
+    text-align: right;
+    float: left;
+    width: 70%;
+    padding: 4em;
+    background: #f5f5f5;
+}
+.jr_agile_testimonials_grid {
+    float: left;
+    padding: 3.5em;
+}
+.jr_agile_testimonials_grid_right h4 {
+    font-size: 1.4em;
+    color: #f44236;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.jr_agile_testimonials_grid_right h5{
+	font-size:14px;
+	color:#87b200;
+}
+/*--flexisel--*/
+.flex-slider{	
+	background:#222227;
+	padding: 70px 0 165px 0;
+}
+#flexiselDemo1 {
+	display: none;
+}
+.nbs-flexisel-container {
+	position: relative;
+	max-width: 100%;
+}
+.nbs-flexisel-ul {
+	position: relative;
+	width: 9999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.nbs-flexisel-inner {
+	overflow: hidden;
+	margin: 0px auto;
+	padding:0em 0 0;
+}
+.nbs-flexisel-item {
+	float: left;
+	margin: 0;
+	padding: 0px;
+	position: relative;
+	line-height: 35px;
+}
+.nbs-flexisel-item > img {
+	cursor: pointer;
+	position: relative;
+}
+/*---- Nav ---*/
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    background: url(../images/left1.png) no-repeat 2px 6px #000;
+    top: 96% !important;
+    border-radius: 5px;
+}
+.nbs-flexisel-nav-left {
+	left:71%;
+}
+.nbs-flexisel-nav-right {
+	right: 21%;
+    background:url(../images/right2.png) no-repeat 8px 6px #000;
+}
+.jr_agile_testimonials_grid_left img {
+    border-radius: 50%;
+}
+/*--//flexisel--*/
+.agile_testimonials_grid {
+    margin: 0 0em 2em;
+}
+/*-- //testimonials --*/
+
 
 /*-- team --*/
 
