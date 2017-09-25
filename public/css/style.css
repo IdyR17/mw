@@ -5,6 +5,7 @@ body {
     margin: 0;
     background-image: url("../images/bg_wood.jpg");
     background-repeat: repeat;
+    box-shadow: inset 0 0 0 1000px rgba(105,11,34, 0.20);
     position: relative;
     font-family: 'Monda', sans-serif;
 }
@@ -158,7 +159,7 @@ label {
     position:absolute;
     /* background-image: url('../images/mw_background.jpg');
      */
-    background-image: url('../moreImages/mw40.jpg');
+    background-image: url('../moreImages/mw15.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
