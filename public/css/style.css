@@ -97,7 +97,23 @@ label {
     /* width: 30%;
     float: left; */
 }
-
+.lang_en, .lang_es{
+    margin-top: 2vh;
+}
+.lang_en a, .lang_es a{
+    text-shadow: 2px 2px 4px #000;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
 .logo-agileinfo span {
     text-shadow: 2px 2px 4px #000;
     /* #604231; */
@@ -1297,7 +1313,7 @@ a.frist {
 .home-radio-clock ul li i {
     font-size: 1.5em;
     left: -15px;
-    color: #604231;
+    color: #f44236;
     top: 6px;
 }
 .home-radio-clock-right ul li span{
@@ -1668,6 +1684,23 @@ section.socialul li {
     text-indent: 100%;
     background: url("../images/arrowup.png") no-repeat 0px 0px;
 }
+#quote {
+    font-size: 0.7em;
+    font-weight: bold;
+    padding-top:1px;
+    
+    text-decoration: none;
+    position: fixed;
+    top:81vh;
+    left: 1%;
+    overflow: hidden;
+    z-index: 2;
+    width:64px;
+    height:30px;
+    text-align: center;
+    
+  }
+
 
 #toTopHover {
     width: 64px;
@@ -1754,7 +1787,7 @@ footer {
     }
     .banner-text-info {
         margin: 10vh auto 0;
-        background:rgba(0,0,0,0.4);
+        background:rgba(0,0,0,0.5);
         width: 41%;
     }
     h3.top-about,
@@ -3344,7 +3377,7 @@ footer {
     .banner-text-info {
         margin-bottom:5%;
         width: 73%;
-        background:rgba(0,0,0,0.4);
+        background:rgba(0,0,0,0.5);
         padding: 1.5em 0.5em;
     }
     .banner-text p {

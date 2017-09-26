@@ -50,15 +50,15 @@
                 <div class="header-jr">
                     <div class="header-top-agile">
                         <div class="container">
-                                <div class="col-md-6 col-xs-6 logo-agileinfo">
-                                        
-                                                                        </div>
-                                                                        <div class="col-md-6 col-xs-6 logo-agileinfo social-icons-agileits">
-                                                                                <ul>
-                                                                                    <li><a href="mailto:ManhattanWindoors@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class='icon-text'>ManhattanWindoors@gmail.com</span></a></li>
-                                                                                    <li><a href="tel:3471234567"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><span class='icon-text'> 347 123 4567</span></a></li>
-                                                                                </ul>
-                                                                        </div>
+                                <div class="col-md-6 col-xs-6 logo-agileinfo lang_es">
+                                        <a href="es.html">Español</a>
+                                       </div>
+                                       <div class="col-md-6 col-xs-6 logo-agileinfo social-icons-agileits">
+                                               <ul>
+                                                   <li><a href="mailto:ManhattanWindoors@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class='icon-text'>ManhattanWindoors@gmail.com</span></a></li>
+                                                   <li><a href="tel:3471234567"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><span class='icon-text'> 347 123 4567</span></a></li>
+                                               </ul>
+                                       </div>
                             <div class="header-bottom-agile">
                                 <div class="container">
                                     <div class=" navigation">
@@ -148,7 +148,7 @@
     </div>
 
     <!-- main -->
-    <!-- welcome -->
+    <!-- SERVICES -->
     <div class="about juri-agileinfo" id="about">
         <div class="container">
             <h3 class="top-about">Services</h3>
@@ -171,10 +171,10 @@
                         <h5>Manhattan Windoors Something</h5>
                         
                         <p>Basmodi temporant, ut laboreas dolore magnam kuytase uaeraquis autem vel eum iure reprehend.Unicmquam eius, Basmodi temurer sehsMunim.</p>  <ul>
-                            <li><a href="#"><i class="glyphicon glyphicon-ok"></i> Basmodi temporant, ut laboreas dolore magnam aliquam kuytase uaeraqu</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-ok"></i> I uaeraquis autem vel eum iure reprehend.Unicmquam eius, Basmodi temur</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-ok"></i> A laboreas dolore magnam aliquam kuytase uaeraquis au</a></li>
-                            <li><a href="#"><i class="glyphicon glyphicon-ok"></i> Sont Basmodi temporant, ut laboreas dolor</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#service1"><i class="glyphicon glyphicon-ok"></i> Basmodi temporant, ut laboreas dolore magnam aliquam kuytase uaeraqu</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#service1"><i class="glyphicon glyphicon-ok"></i> I uaeraquis autem vel eum iure reprehend.Unicmquam eius, Basmodi temur</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#service1"><i class="glyphicon glyphicon-ok"></i> A laboreas dolore magnam aliquam kuytase uaeraquis au</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#service1"><i class="glyphicon glyphicon-ok"></i> Sont Basmodi temporant, ut laboreas dolor</a></li>
                         </ul>
                     </div>
                     <a href="#" data-toggle="modal" data-target="#quote-modal" class="hvr-shutter-in-horizontal">REQUEST QUOTE</a>
@@ -184,7 +184,30 @@
             </div>
         </div>
     </div>
-    <!-- //welcome -->
+
+    <!--- MODAL services -->
+<div class="modal fade" id="service1" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header no-border">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class='flex-me'>
+                        <h5>Poner Algo Aqui</h5>
+                        <p>Informacion Relevante sobre un servicio particular</p>
+                        <p>Esto Podria ser opcional</p>
+                        <p>Pero, no quita nada, se puede tambier poner una foto relevante al servicio ofrecido</p>
+                        <form class="suscribeForm" data-purpose='buy'>
+                            <input type="email" class="submit-email" placeholder="Email" name="email" required="">
+                            <input type="submit" value="Go" />
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- //SERVICES -->
 
     <!-- Services -->
     <div id="services" class="services shadowborder">
@@ -756,6 +779,7 @@
         });
     </script>
     <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    <a href="#" Id="quote" data-toggle="modal" data-target="#quote-modal" class="hvr-shutter-in-horizontal">REQUEST QUOTE</a>
     <!-- //smooth scrolling-bottom-to-top -->
 
     <script type="text/javascript" src="js/bootstrap.js"></script>
