@@ -760,6 +760,7 @@ a.hvr-shutter-in-horizontal {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     padding: 0.7em 1em;
+    top: 1em;
     color: #fff;
 }
 
@@ -922,6 +923,36 @@ a.frist {
     letter-spacing: 1px;
     text-align: center;
     margin: 0.3em 0 1em;
+}
+
+
+.modal-header.no-border {
+    border : none;
+}
+
+.modal-header input {
+    height : 35px;
+    display : inline-block;
+    box-sizing: border-box;
+}
+
+.modal-header input[type='email']{
+    border : 1px solid #cecece;
+    width : 80%;
+}
+
+.modal-header input[type='submit'] {
+    background : #f44236;
+    border : none;
+    color : white;
+    width : 20%;
+
+    /* margin-left : 2.5%; */
+}
+
+.modal-header input[type='submit']:hover {
+    background : #080808;
+    color : #f44236;
 }
 
 .guide {
