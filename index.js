@@ -1,9 +1,12 @@
-const express = require('express');
+var compression = require('compression')
+var express = require('express')
+const app = express()
+app.use(compression())
 
 const bodyparser = require('body-parser');
 const mongoose = require('mongoose');
 
-const app = express();
+
 
 const mailer = require('./mailer');
 
