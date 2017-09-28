@@ -99,7 +99,13 @@
                         <div id="top" class="callbacks_container">
                             <ul class="rslides" id="slider3">
                                 <li>
+                                        <script type="application/x-javascript">
+                                            $(function(){
+                                                    $('.bglogo').css("background-image:", "url('../moreImages/mw5.jpg') !important");
+                                            })();
+                                                    </script>
                                     <div class="banner-text-info">
+                                            <!-- <div class="bg1"></div> -->
                                         <h3 class="bnr-title wow zoomIn animated" data-wow-delay=".5s">Window</h3>
                                         <h2 class='sub-title'>Installations</h2>
                                         <p class='banner-text-detail'>
@@ -252,6 +258,7 @@
 			<section>
 				<ul id="da-thumbs" class="da-thumbs">
 					<li>
+
 						<a href="moreImages/mw11.jpg" rel="" class="b-link-stripe b-animate-go  thickbox" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.">
 							<img src="moreImages/mw11.jpg" alt="" />
 							<div>
@@ -518,9 +525,23 @@
                         <p>Enter your email here, and we will email you with more info.</p>
                         <p>Enter your email here, and we will email you with more info.</p>
                         <p>Enter your email here, and we will email you with more info.</p>
-                        <form class="suscribeForm" data-purpose='buy'>
-                            <input type="email" class="submit-email" placeholder="Email" name="email" required="">
-                            <input type="submit" value="Go" />
+                        <form class="quote_form contact-us1-bottom" data-purpose='quote'>
+                                <input type="text" placeholder="Name" name="name" required="">			
+                                <input type="email" placeholder="Email" name="email" required="">
+                                <fieldset>
+                                <input type="text" placeholder="Address" name="address" >		
+                                <input type="tel" placeholder="Phone Number" name="number" >	
+                                </fieldset>
+                                <p>Which Service are you Requesting?
+                                <select name="cars">
+                                        <option value="Window">Ventana</option>
+                                        <option value="Door">Puerta</option>
+                                        <option value="Inspection">Inspeccion</option>
+                                        <option value="Other">Otro</option>
+                                </select>
+                                </p>			
+                                <textarea placeholder="Additional Information" name="message" required=""></textarea>
+                                <input type="submit" value="Submit" >
                         </form>
                     </div>
                 </div>
@@ -567,6 +588,7 @@
 
     <!--banner Slider starts Here-->
     <script>
+        
         // You can also use "$(window).load(function() {"
         $(function() {
             // $('.shop-modal').on('click', function(e) {

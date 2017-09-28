@@ -517,9 +517,23 @@
                         <p>Aqui se pone un formulario con cosas</p>
                         <p>Como el tipo de servicio requerido, y otros detalles</p>
                         <p>Le enviaremos un email con mas informacion!</p>
-                        <form class="suscribeForm" data-purpose='buy'>
-                            <input type="email" class="submit-email" placeholder="Email" name="email" required="">
-                            <input type="submit" value="Enviar" />
+                        <form class="quote_form contact-us1-bottom" data-purpose='quote'>
+                                <input type="text" placeholder="Nombre" name="name" required="">			
+                                <input type="email" placeholder="Nombre" name="email" required="">
+                                <fieldset>
+                                <input type="text" placeholder="Direccion" name="address" >		
+                                <input type="tel" placeholder="Telefono" name="number" >	
+                                </fieldset>
+                                <p>Que Servicio Necesitas?
+                                <select name="cars">
+                                        <option value="Window">Ventana</option>
+                                        <option value="Door">Puerta</option>
+                                        <option value="Inspection">Inspeccion</option>
+                                        <option value="Other">Otro</option>
+                                </select>
+                                </p>			
+                                <textarea placeholder="Informacion Adicional" name="message" required=""></textarea>
+                                <input type="submit" value="Enviar" >
                         </form>
                     </div>
                 </div>

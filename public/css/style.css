@@ -179,14 +179,29 @@ label {
 /* Navigation */
 .bglogo{
     position:absolute;
-    /* background-image: url('../images/mw_background.jpg');
-     */
-    background-image: url('../moreImages/mw15.jpg');
+    /* background-image: url('../images/mw_background.jpg'); */
+    
+    background-image: url('../moreImages/mw.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
+    background-position-y:30%;
     height: 100vh;
 
    }
+/* .bg1{
+    position:absolute;
+    width: 100%;
+    height:1000px;
+    z-index:-2;
+    right:0vh;
+    top:0vh;
+    overflow: visible;
+    background-image: url('../moreImages/mw5.jpg');
+     background-image: url('../images/mw_background.jpg'); 
+    background-size: cover;
+
+   } */
 .mwlogo{
     width: 35%;
     padding-left: 5%;
@@ -469,7 +484,7 @@ label {
 .testimonials,
 .gallery.juri-agile,
 .team,
-.contact {
+.contact{
     padding: 5em 0em;
     text-align: center;
 }
@@ -1242,7 +1257,7 @@ a.frist {
 	float:left;
 	width:50%;
 }
-.contact-us1-bottom input[type="text"], .contact-us1-bottom input[type="email"], .contact-us1-bottom textarea {
+.contact-us1-bottom input[type="text"], .contact-us1-bottom input[type="email"],.contact-us1-bottom input[type="tel"], .contact-us1-bottom textarea {
     outline: none;
     padding: 10px 10px;
     background: white;
@@ -1251,7 +1266,7 @@ a.frist {
     border: 1px solid #000;
     width: 48.3%;
 }
-.contact-us1-bottom input[type="email"]{
+.contact-us1-bottom input[type="email"], .contact-us1-bottom input[type="tel"]{
 	margin:0 0 0 1em;
 }
 .contact-us1-bottom textarea {
@@ -1330,7 +1345,14 @@ a.frist {
 	min-height:400px;
 }
 /*-- //contact --*/
-
+/*--Quotes--*/
+.quote_form fieldset{
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.quote_form{
+    text-align:center;
+}
 
 /*-- footer --*/
 
